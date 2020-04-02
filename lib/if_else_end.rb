@@ -1,5 +1,9 @@
 # Write your solution here
 
 if Time.now.second%2 == 0;
-  puts 'Even'
+  puts 'Even!'
+end
+
+if Time.now.second%2 == 1;
+  puts 'Odd!'
 end
